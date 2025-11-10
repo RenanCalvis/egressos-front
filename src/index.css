@@ -1,6 +1,7 @@
 @import "tailwindcss";
+@import "tw-animate-css";
 
-@plugin "tailwindcss-animate";
+/* @plugin "tailwindcss-animate"; */
 
 @custom-variant dark (&:is(.dark *));
 
@@ -25,8 +26,8 @@
   --color-muted: oklch(0.967 0.01 247.896);
   --color-muted-foreground: oklch(0.457 0.022 264.665);
 
-  --color-accent: oklch(0.967 0.01 247.896);
-  --color-accent-foreground: oklch(0.153 0.034 264.665);
+  --color-accent: oklch(0.532 0.157 131.589);
+  --color-accent-foreground: oklch(1 0 0);
 
   --color-destructive: oklch(0.6 0.25 27);
   --color-destructive-foreground: oklch(0.984 0.003 247.858);

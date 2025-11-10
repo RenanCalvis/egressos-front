@@ -12,14 +12,14 @@ import {
 } from '@/components/ui/sidebar';
 
 // Importe os ícones
-import { Calendar, Home, Inbox, Search, Settings } from 'lucide-react';
+import { Calendar, Download, Inbox, Search, Settings } from 'lucide-react';
 
 // Itens do Menu
 const items = [
   {
-    title: 'Home',
-    url: '#',
-    icon: Home,
+    title: 'Importação de Egressos',
+    url: '/import',
+    icon: Download,
   },
   {
     title: 'Inbox',
